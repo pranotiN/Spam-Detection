@@ -25,14 +25,18 @@ This is a proof-of-concept for a spam detection application using Python and sci
     ```bash
     pip install -r requirements.txt
     ```
+    or
+     ```bash
+    python3 -m pip install -r requirements.txt
+      ```
 
-3.  **Train the model:**
+4.  **Train the model:**
 
     ```bash
     python3 train.py
     ```
 
-4.  **Make predictions:**
+5.  **Make predictions:**
 
     ```bash
     python3 predict.py "Your message here"
